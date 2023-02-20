@@ -5,13 +5,14 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: 'Open Sans';
 }
 
 .wrapper {
-    width: 1200px;
+    width: 100%;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #f1f1f1;
 }
 .main {
     display: flex;
@@ -20,11 +21,11 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #157283;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #15738346;
     min-height: 150px;
 }
 .content {
@@ -33,6 +34,178 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #0a3841;
     min-height: 150px;
+}
+/* Adições CSS, estava um pouco enferrujada e tive que pesquisar bastante pra relembrar muita 
+coisa do que eu fiz aqui, pois estava tudo ficando desproporcional ao tamanho do site, principalmente as imagens...*/
+
+/*Alterações Menu*/
+.menu a{
+    color: #fff;
+    text-decoration: none;    
+}
+.menu ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.menu ul li:hover{
+    text-decoration: underline;
+    background-color: #09343ba1;
+    border-radius: 5px;
+}
+.menu img{
+    width: 100%;    
+}
+
+/*Alterações Header*/
+.header img{
+    width: 100%;
+    height: 100%;
+}
+/*Alterações Content*/
+.content h1,h2{
+    color: #157283;
+    text-align: center;
+}
+.content p{
+    color: #072e35;
+    text-align: center;
+}
+.content table{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.content table img{
+    width: 100%;
+}
+.content a {
+    display: block; /*Tive que pesquisar muito pra centralizar esse botão :clown_face:*/
+    text-align: center;
+    align-content: center;
+}
+.content a button, button{
+    background-color: #cae8eead;
+    color: #3e8a97;
+    border:1px solid #0b4752b2;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    text-decoration: none;   
+    cursor: pointer;
+
+}
+/*Alterações Footer*/
+.footer{
+    text-align: center;
+    color: #fff;
+}
+.footer table{
+    width: 100%;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+    text-align: center;
+}
+.footer table tr{
+    display: inline;
+    cursor: pointer;
+}
+.footer  table td{
+    padding: 10px;
+    margin: 10px;
+}
+.footer img{
+    width: 60px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;    
+}
+/*Adição*/
+.table table{
+    width: 50%;
+    text-align: center;
+    align-content: center;    
+    margin-left: 25%;
+    border: 1px solid #0a38418c;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 34px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 34px 8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 34px 8px rgba(0, 0, 0, 0.473);
+}
+.table tr:nth-child(even){
+    background-color: #3e8a97b6;
+}
+.table tr:hover td{
+    background-color: #072e35;
+    color: #f1f1f1;
+}
+.iframe{
+    display: block;
+    text-align: center;
+    align-content: center;
+}
+.iframe iframe{
+    border:0; 
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 34px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 34px 8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 34px 8px rgba(0, 0, 0, 0.473);
+}
+small{
+    color: #f00;    
+}
+div small{
+    margin-bottom: 1%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+form{
+    margin: 0;
+    padding: 0;  
+    width: 50%;    
+}
+form fieldset{
+    border: 2px solid #cdd2d3;
+    border-radius: 10px;
+    background-color: #f3f7f8;
+    
+}
+form div{
+    display: flex;
+    margin-bottom: 10px;
+}
+form input, form textarea{
+    outline: unset;
+    padding: 20px;
+    width:70%;
+    margin-left: 10%;
+    border: 2px solid #cdd2d3;
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form button{
+    margin-top: 5%;
+    margin-inline: 10px;
 }
