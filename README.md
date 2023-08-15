@@ -1,4 +1,7 @@
 # Trilha HTML - Dio.me
+
+![Imagem do WhatsApp de 2023-08-15 à(s) 13 20 28](https://github.com/Brenda-A-S/trilha-html-modulo-2/assets/69852246/a1f2e7fe-e8c6-4f81-8fe6-4e2b8f9ba37e)
+
 ## Módulo 02 - HTML I - Conceitos Básicos
 
 Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
